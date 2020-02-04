@@ -106,7 +106,7 @@
 <a class="sourceLine" id="cb2-2" title="2"><span class="kw"><a href="reference/saturnR_example.html">saturnR_example</a></span>()</a>
 <a class="sourceLine" id="cb2-3" title="3"><span class="co">#&gt; [1] "2014_Coordinates.dat"           "Epsom98mat.UFM"                </span></a>
 <a class="sourceLine" id="cb2-4" title="4"><span class="co">#&gt; [3] "Epsom98oba.UFS"                 "One_UserClass_large_matrix.UFM"</span></a></code></pre></div>
-<p>To modify the example Epsom98 matrix first we need to set up out XEXES folder as our back end.</p>
+<p>To modify the example Epsom98 matrix first we need to set up our XEXES folder as the back end.</p>
 <div class="sourceCode" id="cb3"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb3-1" title="1"><span class="kw"><a href="reference/set_xexes.html">set_xexes</a></span>(<span class="st">"C:/Program Files (x86)/Atkins/SATURN/XEXES 11.4.07H MC X7/"</span>) <span class="co"># Using a particular version of the backend</span></a></code></pre></div>
 <p>The we can read the matrix. It only has one user class, 12 zones and 144 rows</p>
 <div class="sourceCode" id="cb4"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb4-1" title="1">epsom_mat &lt;-<span class="st"> </span><span class="kw"><a href="reference/saturnR_example.html">saturnR_example</a></span>(<span class="st">"Epsom98mat.UFM"</span>) </a>
