@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Skim Distance UFM function — skim_dist • saturnR</title>
+<title>Show p1x Variables — show_p1x_variables • saturnR</title>
 
 <!-- jquery -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
@@ -30,9 +30,9 @@
 
 
 
-<meta property="og:title" content="Skim Distance UFM function — skim_dist" />
+<meta property="og:title" content="Show p1x Variables — show_p1x_variables" />
 
-<meta property="og:description" content="This function allows you to skim distances between OD (km) from UFS files into R. Note it needs UFC/O" />
+<meta property="og:description" content="It displays the valid variable names for p1x" />
 <meta name="twitter:card" content="summary" />
 
 
@@ -109,45 +109,33 @@
 <div class="row">
   <div class="col-md-9 contents">
     <div class="page-header">
-    <h1>Skim Distance UFM function</h1>
+    <h1>Show p1x Variables</h1>
     
-    <div class="hidden name"><code>skim_dist.Rd</code></div>
+    <div class="hidden name"><code>show_p1x_variables.Rd</code></div>
     </div>
 
     <div class="ref-description">
     
-    <p>This function allows you to skim distances between OD (km) from UFS files into R. Note it needs UFC/O</p>
+    <p>It displays the valid variable names for p1x</p>
     
     </div>
 
-    <pre class="usage"><span class='fu'>skim_dist</span>(<span class='no'>file</span>, <span class='kw'>remove_ufm</span> <span class='kw'>=</span> <span class='fl'>TRUE</span>, <span class='kw'>clean_up</span> <span class='kw'>=</span> <span class='fl'>TRUE</span>)</pre>
-    
-    <h2 class="hasAnchor" id="arguments"><a class="anchor" href="#arguments"></a>Arguments</h2>
-    <table class="ref-arguments">
-    <colgroup><col class="name" /><col class="desc" /></colgroup>
-    <tr>
-      <th>file</th>
-      <td><p>The file to read.</p></td>
-    </tr>
-    <tr>
-      <th>remove_ufm</th>
-      <td><p>when set to TRUE it will remove the interim ufm files</p></td>
-    </tr>
-    <tr>
-      <th>clean_up</th>
-      <td><p>when TRUE removes the VDU, KEY and LPL files</p></td>
-    </tr>
-    </table>
+    <pre class="usage"><span class='fu'>show_p1x_variables</span>()</pre>
+        
+    <h2 class="hasAnchor" id="value"><a class="anchor" href="#value"></a>Value</h2>
+
+    <p>prints out a character vector with the available variables</p>
     
 
     <h2 class="hasAnchor" id="examples"><a class="anchor" href="#examples"></a>Examples</h2>
-    <pre class="examples"><div class='input'><span class='fu'>skim_dist</span>(<span class='st'>"file.UFS"</span>)</div><div class='output co'>#&gt; <span class='error'>Error in get_xexes(): XEXES not defined, use set_xexes("path")</span></div></pre>
+    <pre class="examples"><div class='input'><span class='no'>show_p1x_codes</span></div><div class='output co'>#&gt; <span class='error'>Error in eval(expr, envir, enclos): object 'show_p1x_codes' not found</span></div></pre>
   </div>
   <div class="col-md-3 hidden-xs hidden-sm" id="sidebar">
     <h2>Contents</h2>
     <ul class="nav nav-pills nav-stacked">
-      <li><a href="#arguments">Arguments</a></li>
-            
+      
+      <li><a href="#value">Value</a></li>
+      
       <li><a href="#examples">Examples</a></li>
     </ul>
 
