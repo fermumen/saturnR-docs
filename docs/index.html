@@ -95,7 +95,7 @@
 <a href="#installation" class="anchor"></a>Installation</h2>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb1-1" title="1"><span class="co"># You can install the the development version from GOGS:</span></a>
 <a class="sourceLine" id="cb1-2" title="2"><span class="co"># install.packages("devtools")</span></a>
-<a class="sourceLine" id="cb1-3" title="3">devtools<span class="op">::</span><span class="kw"><a href="https://www.rdocumentation.org/packages/devtools/topics/reexports">install_git</a></span>(<span class="st">"http://uksta1ap007/fernando.munozmendez/saturnR.git"</span>)</a></code></pre></div>
+<a class="sourceLine" id="cb1-3" title="3">devtools<span class="op">::</span><span class="kw"><a href="https://www.rdocumentation.org/packages/devtools/topics/reexports">install_git</a></span>(<span class="st">"http://uksta1ap007/arwa.sayegh/saturnR.git"</span>)</a></code></pre></div>
 </div>
 <div id="intro-to-matrix-manipulation" class="section level2">
 <h2 class="hasAnchor">
@@ -104,8 +104,9 @@
 <p>The Package comes with some example files for you to test you can see them with</p>
 <div class="sourceCode" id="cb2"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb2-1" title="1"><span class="kw"><a href="https://www.rdocumentation.org/packages/base/topics/library">library</a></span>(saturnR)</a>
 <a class="sourceLine" id="cb2-2" title="2"><span class="kw"><a href="reference/saturnR_example.html">saturnR_example</a></span>()</a>
-<a class="sourceLine" id="cb2-3" title="3"><span class="co">#&gt; [1] "2014_Coordinates.dat"           "Epsom98mat.UFM"                </span></a>
-<a class="sourceLine" id="cb2-4" title="4"><span class="co">#&gt; [3] "Epsom98oba.UFS"                 "One_UserClass_large_matrix.UFM"</span></a></code></pre></div>
+<a class="sourceLine" id="cb2-3" title="3"><span class="co">#&gt; [1] "2014_Coordinates.dat"           "Epsom98mat.csv"                </span></a>
+<a class="sourceLine" id="cb2-4" title="4"><span class="co">#&gt; [3] "Epsom98mat.UFM"                 "Epsom98oba.UFS"                </span></a>
+<a class="sourceLine" id="cb2-5" title="5"><span class="co">#&gt; [5] "One_UserClass_large_matrix.UFM"</span></a></code></pre></div>
 <p>To modify the example Epsom98 matrix first we need to set up our XEXES folder as the back end.</p>
 <div class="sourceCode" id="cb3"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb3-1" title="1"><span class="kw"><a href="reference/set_xexes.html">set_xexes</a></span>(<span class="st">"C:/Program Files (x86)/Atkins/SATURN/XEXES 11.4.07H MC X7/"</span>) <span class="co"># Using a particular version of the backend</span></a></code></pre></div>
 <p>The we can read the matrix. It only has one user class, 12 zones and 144 rows</p>
@@ -160,13 +161,14 @@
 <div class="license">
 <h2>License</h2>
 <ul class="list-unstyled">
-<li>TBC</li>
+<li>Commercial</li>
 </ul>
 </div>
 <div class="developers">
 <h2>Developers</h2>
 <ul class="list-unstyled">
 <li>Fernando Munoz <br><small class="roles"> Author, maintainer </small>  </li>
+<li>Arwa Sayegh <br><small class="roles"> Contributor, maintainer </small>  </li>
 <li><a href="authors.html">All authors...</a></li>
 </ul>
 </div>
@@ -177,7 +179,7 @@
 
 
       <footer><div class="copyright">
-  <p>Developed by Fernando Munoz.</p>
+  <p>Developed by Fernando Munoz, Arwa Sayegh.</p>
 </div>
 
 <div class="pkgdown">

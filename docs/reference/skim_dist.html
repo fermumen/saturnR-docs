@@ -32,7 +32,9 @@
 
 <meta property="og:title" content="Skim Distance UFM function — skim_dist" />
 
-<meta property="og:description" content="This function allows you to skim distances between OD (km) from UFS files into R. Note it needs UFC/O" />
+<meta property="og:description" content="This function allows you to skim distances between OD from UFM files.
+Produces a path-averaged distance matrix (in metres). See SKIMDIST.bat
+Note it needs UFC/O." />
 <meta name="twitter:card" content="summary" />
 
 
@@ -116,7 +118,9 @@
 
     <div class="ref-description">
     
-    <p>This function allows you to skim distances between OD (km) from UFS files into R. Note it needs UFC/O</p>
+    <p>This function allows you to skim distances between OD from UFM files.
+Produces a path-averaged distance matrix (in metres). See SKIMDIST.bat
+Note it needs UFC/O.</p>
     
     </div>
 
@@ -127,7 +131,7 @@
     <colgroup><col class="name" /><col class="desc" /></colgroup>
     <tr>
       <th>file</th>
-      <td><p>The file to read.</p></td>
+      <td><p>The file to read, a UFM file.</p></td>
     </tr>
     <tr>
       <th>remove_ufm</th>
@@ -141,7 +145,9 @@
     
 
     <h2 class="hasAnchor" id="examples"><a class="anchor" href="#examples"></a>Examples</h2>
-    <pre class="examples"><div class='input'><span class='fu'>skim_dist</span>(<span class='st'>"file.UFS"</span>)</div><div class='output co'>#&gt; <span class='error'>Error in get_xexes(): XEXES not defined, use set_xexes("path")</span></div></pre>
+    <pre class="examples"><span class='co'># NOT RUN {</span>
+<span class='fu'>skim_dist</span>(<span class='st'>"file.UFM"</span>)
+<span class='co'># }</span></pre>
   </div>
   <div class="col-md-3 hidden-xs hidden-sm" id="sidebar">
     <h2>Contents</h2>
